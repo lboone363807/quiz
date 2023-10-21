@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Quiz App</h1>
+    <main>
+      <div class="main-section">
+        <p id="title">Smart Smarts</p>
+        <p>Here's a simple question to test your Marcus Smart knowledge.</p>
+        <hr />
+        <p id="question">
+          In which season did Marcus Smart win the NBA Defensive Player of the
+          Year award.
+        </p>
+        <div id="choices">
+          <div class="answer" id="1">2015-2016</div>
+          <div class="answer" id="2">2019-2020</div>
+          <div class="answer" id="3">2021-2022</div>
+          <div class="answer" id="4">2022-2023</div>
+        </div>
+        <button disabled id="enter" type="button">Submit Answer</button>
+        <div id="correct">You are correct!</div>
+        <div id="incorrect">
+          Sorry that is incorrect. The correct answer is the 2021-2022 season.
+        </div>
+      </div>
+    </main>
+    <script src="
+https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
+"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
